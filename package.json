@@ -19,6 +19,7 @@
   "author": "ayukrish",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/jest": "^29.5.13",
     "@types/node": "^22.7.2",
     "@types/supertest": "^6.0.2",
