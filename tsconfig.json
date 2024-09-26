@@ -3,8 +3,8 @@
 	"include": ["src/**/*"],
 	"compilerOptions": {
 		"types": ["node", "jest", "express"],
-		"target": "ESNext",
-		"module": "CommonJS",
+    "target": "ES2020",
+		"module": "ESNext",
 		"rootDir": "./src",
 		"moduleResolution": "Node",
 		"typeRoots": ["./node_modules/@types"],
