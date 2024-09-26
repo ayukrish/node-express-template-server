@@ -28,7 +28,7 @@ export class Server {
 			})
 		);
 
-		this.app.get('/example', (req, res: Response) => {
+		this.app.get('/', (req, res: Response) => {
 			res.status(HttpCode.OK).send({
 				message: `Welcome to Initial API! \n Endpoints available at http://localhost:${this.port}/`
 			});
