@@ -1,0 +1,19 @@
+{
+  "name": "express-template-server",
+  "version": "1.0.0",
+  "description": "\"Node Server Using express, TypeScript\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --clear --transpile-only --ignore-watch node_modules ./src/app.ts",
+    "build": "rimraf ./dist && tsc",
+    "start": "node dist/app.js"
+  },
+  "author": "ayukrish",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.2",
+    "rimraf": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  }
+}
